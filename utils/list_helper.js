@@ -3,7 +3,6 @@ const dummy = (blogs) => {
 }
 
 const totalLikes = (blogs) => {
-    console.log(blogs[1])
     let likes = blogs.map(blog => {
         return blog.likes
     })

@@ -1,11 +1,18 @@
-//GET http://localhost:3003/api/blogs
+GET http://localhost:3003/api/blogs
 
-POST http://localhost:3003/api/blogs
+//DELETE http://localhost:3003/api/blogs/628e4e0fa59a7e48a93b6bff
+
+//POST http://localhost:3003/api/blogs
+//Content-Type: application/json
+
+//{
+//    "author": "Testikäyttäjä Keskiviikko",
+//    "likes": 1000
+//}
+
+PUT http://localhost:3003/api/blogs/628bb2bf54f9a99df5d80e7b
 Content-Type: application/json
 
 {
-    "title": "Tiistai 24.5.2022",
-    "author": "Testikäyttäjä Tiistai",
-    "url": "www.tiistai.com",
-    "likes": 1000
+    "title": "UUDEMPI TITLE JEEE"
 }
