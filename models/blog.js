@@ -14,7 +14,8 @@ const blogSchema = new mongoose.Schema({
         type: mongoose.Schema.Types.ObjectId,
         ref: 'User'
     },
-    likes: Number
+    likes: Number,
+    comments: [{comment:{type: String, default: null}}]
 })
 
 blogSchema.set('toJSON', {
